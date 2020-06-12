@@ -1,11 +1,11 @@
 <?php
     session_start();
-    
+
     header('location: index.php');
 
     $con = mysqli_connect('localhost', 'root', '', 'registration');
 
-    
+
 
     // mysqli_select_db($con, 'shareabed');
 
