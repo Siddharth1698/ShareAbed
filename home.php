@@ -8,7 +8,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&family=Piedra&display=swap" rel="stylesheet">
   <title>Home Page</title>
+
   <!-- MDB icon -->
 
 
@@ -65,21 +69,47 @@
 
 <!-- Modal for bed -->
 <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
+  aria-hidden="true" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >Donate Beds</h5>
+        <div class="img">      
+            <img src="https://img.icons8.com/offices/30/000000/hospital-bed.png" />
+        </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <p >Your donation will save someones life</p> 
+       </div>
+
+
+<div class="modal-footer">
+    <div class="flex">
+
+        <div class="mainimg">
+        <img src="img/splash.jpg" alt="image">
+
+        </div>
+
+          <div >
+                <button id="subtract" >
+                <img class="minusimg"   src="img/minus.png" alt="minus-button" />
+                </button>
+
+                <input type="number" value="1">
+
+                <button id="add">
+                <img class="plusimg"src="img/icons8-plus.svg" alt="plus-button" />
+                </button>
+
+          </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+
+        <button type="button" class="btn btn-primary">Make Donation</button>
       </div>
     </div>
   </div>
@@ -144,7 +174,6 @@
 
 
 
-
 <!-- Material form register -->
     <!-- Form -->
 <!-- Material form login -->
@@ -160,6 +189,8 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
+  <script src="js/script.js"></script>  
+
 
 </body>
 </html>
