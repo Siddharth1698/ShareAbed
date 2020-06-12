@@ -3,7 +3,7 @@
     
     header('location: index.php');
 
-    $con = mysqli_connect('localhost','root','','registration');
+    $con = mysqli_connect('localhost', 'root', '', 'registration');
 
     
 
@@ -25,6 +25,3 @@
     mysqli_query($con, $reg);
 
     echo "Registration Successfull";
-
-
-?>
