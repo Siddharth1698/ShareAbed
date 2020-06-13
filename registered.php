@@ -1,11 +1,11 @@
 <?php
     session_start();
-    
+
     header('location: index.php');
 
     $con = mysqli_connect('localhost','root','','registration');
 
-    
+
 
     // mysqli_select_db($con, 'shareabed');
 
@@ -31,7 +31,7 @@
     mysqli_query($con, $reg1);
 
 
-    
+
 
 
 ?>
@@ -99,7 +99,7 @@
 <!--/.Navbar -->
 <div class="d-flex justify-content-center bed">
    <div class="btn-group" role="group" >
-  
+
   <!-- Button trigger modal -->
 <button type="button" class="btn  btn-grey" data-toggle="modal" data-target="#basicExampleModal">
  Donate Bed
@@ -115,7 +115,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel" >Donate Beds</h5>
-        <div class="img">      
+        <div class="img">
             <img src="https://img.icons8.com/offices/30/000000/hospital-bed.png" />
         </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -123,7 +123,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <p >Your donation will save someones life</p> 
+        <p >Your donation will save someones life</p>
        </div>
 
 
@@ -173,7 +173,7 @@
       <div class="modal-header">
 
         <h5 class="modal-title" id="exampleModalLabel1">Donate a Room</h5>
-        <div class="img">      
+        <div class="img">
             <img src="img/ward.jpg"/>
         </div>
 
@@ -184,7 +184,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <p> We Appritiate your Donation</p> 
+        <p> We Appritiate your Donation</p>
       </div>
 
       <div class="modal-footer">
@@ -217,8 +217,8 @@
 
 
 
-        
-          
+
+
 
         <button type="button" class="btn btn-primary">Make Donation</button>
       </div>
@@ -243,7 +243,7 @@
                     <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                       <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
                       <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-                     
+
                     </div>
                   </nav>
                   <div class="tab-content py-6 px-6 px-sm-0" id="nav-tabContent">
@@ -253,14 +253,14 @@
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                       Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
                     </div>
-                  
-                 
+
+
                   </div>
-                
+
                 </div>
               </div>
         </div>
-    
+
 
 
 
@@ -279,8 +279,8 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
-  <script src="js/script.js"></script>  
-  <script src="js/script2.js"></script>  
+  <script src="js/script.js"></script>
+  <script src="js/script2.js"></script>
 
 
 </body>
