@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family:'Piedra', cursive ;
+    font-size: 30px;
+    color: darksalmon;
+}
+
+h5{
+    font-family: 'Metal Mania', cursive;
+}
+
+.img{
+
+    margin-left: 7px;
+}
+
+.plus-button{
+    background-size: 30px 30px;
+}
+.minus-button{
+    background-size: 30px 30px;
+}
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.mainimg{
+
+    margin-top: -2px;
+    margin-bottom: -120px;
+    margin-left: -161px;
+    width: 136px;
+}
