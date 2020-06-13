@@ -194,7 +194,8 @@
 </div>
 <div  class="d-flex justify-content-center bed">
 <!-- maps -->
-<iframe src="location.php" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<iframe src="map.php" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 
