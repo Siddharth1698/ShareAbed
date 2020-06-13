@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,6 +86,8 @@
       </div>
       <div class="modal-body">
         <p >Your donation will save someones life</p>
+        <p id="addbed" style="font-size: 20px; color: green;"></p>
+
        </div>
 
 
@@ -109,7 +114,12 @@
       </div>
 
 
-        <button type="button" class="btn btn-primary">Make Donation</button>
+        <button type="button"  onclick="myFunction()" class="btn btn-primary">Make Donation</button>
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -121,17 +131,58 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel1">Modal title</h5>
+
+        <h5 class="modal-title" id="exampleModalLabel1">Donate a Room</h5>
+        <div class="img">
+            <img src="img/ward.jpg"/>
+        </div>
+
+
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <p> We Appritiate your Donation</p>
+        <p id="addroom" style="font-size: 20px; color: green;"></p>
+
       </div>
+
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="flex">
+
+                          <div class="mainimg">
+                          <img src="img/splash.jpg" alt="image">
+
+                          </div>
+
+                            <div >
+                                  <button id="minus" >
+                                  <img class="minusimg"  src="img/minus.png" alt="minus-button" />
+                                  </button>
+
+                                  <input type="number" value="1">
+
+                                  <button id="sum">
+                                  <img class="plusimg" src="img/icons8-plus.svg" alt="plus-button" />
+                                  </button>
+
+                            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <button type="button"  onclick="myFunction1()"  class="btn btn-primary">Make Donation</button>
       </div>
     </div>
   </div>
@@ -142,7 +193,8 @@
 
 </div>
 <div  class="d-flex justify-content-center bed">
- <img src="img/dummymap.png" class="img-fluid " style="width: 1000px;">
+<!-- maps -->
+<iframe src="location.php" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 
@@ -190,6 +242,7 @@
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
   <script src="js/script.js"></script>
+  <script src="js/script2.js"></script>
 
 
 </body>

@@ -13,3 +13,27 @@ btnSubtract.addEventListener("click", () => {
     input.value = parseInt(input.value) = 0;
   }
 });
+
+function myFunction() {
+  var txt;
+  if (
+    confirm("Thanks for your donation.Medical authority will contact you soo")
+  ) {
+    txt = "Thankyou";
+  } else {
+    txt = "we appritiate that you are thinking to donate";
+  }
+  document.getElementById("addbed").innerHTML = txt;
+}
+
+function myFunction1() {
+  var txt;
+  if (
+    confirm("Thanks for your donation.Medical authority will contact you soo")
+  ) {
+    txt = "Thankyou";
+  } else {
+    txt = "we appritiate that you are thinking to donate";
+  }
+  document.getElementById("addroom").innerHTML = txt;
+}
