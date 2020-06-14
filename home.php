@@ -44,7 +44,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="https://areeco.online/">
+        <a class="nav-link" href="https://areeco.online/donate/">
          <i class="fa fa-money" aria-hidden="true"></i>Donate</a>
       </li>
       <li class="nav-item">
